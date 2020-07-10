@@ -1,5 +1,4 @@
 package br.edu.iftm.jogo;
-
 import java.awt.Color;
 
 public class Cabeca {
