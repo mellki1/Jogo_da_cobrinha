@@ -40,7 +40,7 @@ public class Cobra {
             }
         }
 
-        //Mover o primeiro bloco no sentido da cabe�a cabe�a
+        //Mover o primeiro bloco no sentido da cabeca cabeca
         if (!filaCauda.estaVazio()) {
             if (filaCauda.olharOPrimeiro().isCaudaAguardar()) {
                 filaCauda.olharOPrimeiro().setCaudaAguardar(false);
@@ -50,7 +50,7 @@ public class Cobra {
             }
         }
 
-        //Mover a cabe�a
+        //Mover a cabeca
         switch (cabeca.getDirecao()) {
             case RIGHT:
                 cabeca.setDirecaoX(cabeca.getDirecaoX() + 1);
@@ -68,7 +68,7 @@ public class Cobra {
 
     }
 
-    //Posic�o da Matriz para coordenadas
+    //Posicao da Matriz para coordenadas
     public static Point posicaoCoordenada(int x, int y) {
         Point p = new Point(0, 0);
         p.x = x * 32 + Gui.matrizPosicaoX;

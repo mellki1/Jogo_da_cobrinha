@@ -5,7 +5,7 @@ public class ListaLigada<T> {
 	private Celula<T> ultima;
 	private int totalElementos;
 	
-	// Metodos de Manipulação da nossa lista
+	// Metodos de Manipulando da nossa lista
 	public void adicionar(T elemento) {
 		adicionarNoFim(elemento);
 	}
@@ -29,8 +29,8 @@ public class ListaLigada<T> {
 	public void adicionarNoComeco(T elemento) {
 				
 		if (estaVazia()) {
-			// está adicionando pela primeira vez, sendo assim precisamos colocar 
-			// a referência da última célula também
+			// esta adicionando pela primeira vez, sendo assim precisamos colocar 
+			// a referencia da ultima celula tambem
 			Celula<T> novaCelula = new Celula<T>(elemento);
 			this.primeira = novaCelula;
 			this.ultima = novaCelula;	
@@ -61,7 +61,7 @@ public class ListaLigada<T> {
 	
 	public void remover(int posicao) {
 		if (! estaOcupada(posicao)) {
-			throw new IllegalArgumentException("Posição inválida");
+			throw new IllegalArgumentException("Posico invalida");
 		}
 		if (posicao == 0) {
 			removerDoComeco();
@@ -81,7 +81,7 @@ public class ListaLigada<T> {
 	
 	public T removerDoComeco() {
 		if (!estaOcupada(0)) {
-			throw new IllegalArgumentException("Posição inválida");
+			throw new IllegalArgumentException("Posicao invalida");
 		}
 		Celula<T> celulaRemovida = this.primeira;
 		this.primeira = this.primeira.getProxima();
@@ -95,7 +95,7 @@ public class ListaLigada<T> {
 	
 	public void removerDoFim() {
 		if(!estaOcupada(this.totalElementos-1)) {
-			throw new IllegalArgumentException("Posição inválida");
+			throw new IllegalArgumentException("Posicao invalida");
 		}
 		if (totalElementos == 1) {
 			removerDoComeco();
@@ -113,7 +113,7 @@ public class ListaLigada<T> {
 	
 	private Celula<T> pegarCelula(int posicao) {
 		if(!estaOcupada(posicao)) {
-			throw new IllegalArgumentException("Posição inválida");
+			throw new IllegalArgumentException("Posicao invalida");
 		}
 		Celula<T> atual = primeira;
 		for (int indice = 0; indice < posicao; indice++) {

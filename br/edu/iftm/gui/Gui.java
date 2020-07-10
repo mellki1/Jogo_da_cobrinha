@@ -19,7 +19,7 @@ public class Gui {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null); //centralizar
         frame.setLayout(null); //retirar o gerenciador de layout
-        frame.setResizable(false); // não deixar maximizar
+        frame.setResizable(false); // nao deixar maximizar
         frame.addKeyListener(new MovimentoTeclado());
 
         areaMatriz = new DesenharEstrutura();
