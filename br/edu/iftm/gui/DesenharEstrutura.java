@@ -18,7 +18,7 @@ public class DesenharEstrutura extends JLabel {
     protected void paintComponent(Graphics estrutura) {
         super.paintComponent(estrutura);
         Graphics2D estrutura2D = (Graphics2D) estrutura;
-        //Remover suavização das bordas, pois iremos trabalhar com retângulos
+        //Remover suavizacao das bordas, pois iremos trabalhar com retangulos
         estrutura2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_OFF);
 
         //Desenhar fundo
