@@ -7,11 +7,7 @@ import java.awt.*;
 public class DesenharEstrutura extends JLabel {
 
     Point p;
-    Color cor1 = new Color(204,51,0);
-    Color cor2 = new Color(0,204,51);
-    Color cor3 = new Color(204,0,51);
-    Color cor4 = new Color(104,26,0);
-    Color cor5 = new Color(51,0,204);
+    Color cores[] = {new Color(204,51,0), new Color(0,204,51), new Color(204,0,51), new Color(104,26,0), new Color(51,0,204)};
 
     
     @Override
@@ -40,34 +36,13 @@ public class DesenharEstrutura extends JLabel {
 
         
         //Desenhar Bloco de Alimento
+        for (int i = 0; i < 5; i++) {
+            estrutura2D.setColor(cores[i]);
+            p = Cobra.posicaoCoordenada(Cobra.alimentos[i].getX(), Cobra.alimentos[i].getY());
+            estrutura2D.fillRect(p.x,p.y, 32,32);
+            Cobra.alimentos[i].setAlimentoCor(cores[i]);
         
-        estrutura2D.setColor(cor1);
-        p = Cobra.posicaoCoordenada(Cobra.alimento1.getX(), Cobra.alimento1.getY());
-        estrutura2D.fillRect(p.x,p.y, 32,32);
-        Cobra.alimento1.setAlimentoCor(cor1);
-
-        
-        estrutura2D.setColor(cor2);
-        p = Cobra.posicaoCoordenada(Cobra.alimento2.getX(), Cobra.alimento2.getY());
-        estrutura2D.fillRect(p.x,p.y, 32,32);
-        Cobra.alimento2.setAlimentoCor(cor2);
-        
-        
-        estrutura2D.setColor(cor3);
-        p = Cobra.posicaoCoordenada(Cobra.alimento3.getX(), Cobra.alimento3.getY());
-        estrutura2D.fillRect(p.x,p.y, 32,32);
-        Cobra.alimento3.setAlimentoCor(cor3);
-        
-        
-        estrutura2D.setColor(cor4);
-        p = Cobra.posicaoCoordenada(Cobra.alimento4.getX(), Cobra.alimento4.getY());
-        estrutura2D.fillRect(p.x,p.y, 32,32);
-        Cobra.alimento4.setAlimentoCor(cor4);
-        
-        estrutura2D.setColor(cor5);
-        p = Cobra.posicaoCoordenada(Cobra.alimento5.getX(), Cobra.alimento5.getY());
-        estrutura2D.fillRect(p.x,p.y, 32,32);
-        Cobra.alimento5.setAlimentoCor(cor5);
+        }
         
 
         //Desenhar Bordas

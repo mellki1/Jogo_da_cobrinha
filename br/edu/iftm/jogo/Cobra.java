@@ -11,11 +11,14 @@ public class Cobra {
     public static boolean aguardarParaMover = false;
     public static Cabeca cabeca = new Cabeca(7, 7);
     public static Fila<Cauda> filaCauda = new Fila<>();
+    public static BlocoAlimento alimentos[] = {new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento()};
+    
+    /* 
     public static BlocoAlimento alimento1 = new BlocoAlimento();
     public static BlocoAlimento alimento2 = new BlocoAlimento();
     public static BlocoAlimento alimento3 = new BlocoAlimento();
     public static BlocoAlimento alimento4 = new BlocoAlimento();
-    public static BlocoAlimento alimento5 = new BlocoAlimento();
+    public static BlocoAlimento alimento5 = new BlocoAlimento(); */
     public static int r;
     public static int g;
     public static int b;
