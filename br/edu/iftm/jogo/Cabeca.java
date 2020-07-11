@@ -4,12 +4,13 @@ import java.awt.Color;
 public class Cabeca {
     public Direcao direcao = Direcao.RIGHT;
     public int direcaoX, direcaoY;
-    public Color cabecaCor = new Color(204,51,0);
+    public Color cabecaCor;
     
 
     public Cabeca(int x, int y) {
         this.direcaoX = x;
         this.direcaoY = y;
+	this.cabecaCor = new Color(204,51,0);
     }
 
     public Direcao getDirecao() {
