@@ -16,9 +16,6 @@ public class Cobra {
     public static BlocoAlimento alimento3 = new BlocoAlimento();
     public static BlocoAlimento alimento4 = new BlocoAlimento();
     public static BlocoAlimento alimento5 = new BlocoAlimento();
-    public static int r;
-    public static int g;
-    public static int b;
 
     public static void adicionarBlocoCaudaNoFim(Color cor) throws Exception {
         if (filaCauda.estaVazio()) {
