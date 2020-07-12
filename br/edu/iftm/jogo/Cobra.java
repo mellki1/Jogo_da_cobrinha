@@ -13,19 +13,10 @@ public class Cobra {
     public static Fila<Cauda> filaCauda = new Fila<>();
     public static BlocoAlimento alimentos[] = {new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento()};
     
-    /* 
-    public static BlocoAlimento alimento1 = new BlocoAlimento();
-    public static BlocoAlimento alimento2 = new BlocoAlimento();
-    public static BlocoAlimento alimento3 = new BlocoAlimento();
-    public static BlocoAlimento alimento4 = new BlocoAlimento();
-<<<<<<< HEAD
-    public static BlocoAlimento alimento5 = new BlocoAlimento(); */
+
     public static int r;
     public static int g;
     public static int b;
-=======
-    public static BlocoAlimento alimento5 = new BlocoAlimento();
->>>>>>> 8e317a6c22a12032b94c64941bc44a646c4a4075
 
     public static void adicionarBlocoCaudaNoFim(Color cor) throws Exception {
         if (filaCauda.estaVazio()) {

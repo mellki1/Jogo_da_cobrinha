@@ -53,7 +53,7 @@ public class DesenharEstrutura extends JLabel {
         //Escrever Legendas
         estrutura2D.setFont(new Font("Verdana", Font.BOLD, 12));
         estrutura2D.drawString("Pontos: "+ Cobra.pontuacao, 605,45);
-        estrutura2D.drawString("Melhor PontuaÃ§Ã£o: "+ Cobra.melhorPontuacao, 605,65);
+        estrutura2D.drawString("Melhor Pontuação: "+ Cobra.melhorPontuacao, 605,65);
 
         repaint();
 
