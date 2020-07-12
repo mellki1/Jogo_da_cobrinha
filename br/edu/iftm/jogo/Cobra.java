@@ -11,13 +11,17 @@ public class Cobra {
     public static boolean aguardarParaMover = false;
     public static Cabeca cabeca = new Cabeca(7, 7);
     public static Fila<Cauda> filaCauda = new Fila<>();
-    public static BlocoAlimento alimentos[] = {new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento(), new BlocoAlimento()};
+    public static ListaLigada<BlocoAlimento> alimentos = new ListaLigada<>();
     
+    public Cobra() {
+        alimentos.adicionar(new BlocoAlimento());
+    	alimentos.adicionar(new BlocoAlimento());
+    	alimentos.adicionar(new BlocoAlimento());
+    	alimentos.adicionar(new BlocoAlimento());
+    	alimentos.adicionar(new BlocoAlimento());
+    }
 
-    public static int r;
-    public static int g;
-    public static int b;
-
+    
     public static void adicionarBlocoCaudaNoFim(Color cor) throws Exception {
         if (filaCauda.estaVazio()) {
             filaCauda.adicionar(new Cauda(cabeca.getDirecaoX(), cabeca.getDirecaoY(), cor));
