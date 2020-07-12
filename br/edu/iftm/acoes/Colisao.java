@@ -23,11 +23,11 @@ public class Colisao {
 	}
 
 	public static void ColisaoAlimento() throws Exception {
-		for (int i = 0; i < 5; i++) {
-			if (Cobra.cabeca.getDirecaoX() == Cobra.alimentos[i].getX()
-					&& Cobra.cabeca.getDirecaoY() == Cobra.alimentos[i].getY()) {
-				if (!Cobra.cabeca.getCabecaCor().equals(Cobra.alimentos[i].getAlimentoCor())) {
-					Cobra.adicionarBlocoCaudaNoFim(Cobra.alimentos[i].getAlimentoCor());
+		for (int i = 0; i < Cobra.alimentos.tamanho(); i++) {
+			if (Cobra.cabeca.getDirecaoX() == Cobra.alimentos.pegar(i).getX()
+					&& Cobra.cabeca.getDirecaoY() == Cobra.alimentos.pegar(i).getY()) {
+				if (!Cobra.cabeca.getCabecaCor().equals(Cobra.alimentos.pegar(i).getAlimentoCor())) {
+					Cobra.adicionarBlocoCaudaNoFim(Cobra.alimentos.pegar(i).getAlimentoCor());
 					Cobra.pontuacao++;
 
 				} else {
@@ -40,7 +40,7 @@ public class Colisao {
 						Cobra.cabeca.setDirecaoY(7);
 					}
 				}
-				Cobra.alimentos[i].reset();
+				Cobra.alimentos.pegar(i).reset();
 			}
 		}
 		if (Cobra.pontuacao > Cobra.melhorPontuacao)
