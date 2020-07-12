@@ -8,7 +8,7 @@ public class Gui {
     JFrame frame;
     DesenharEstrutura areaMatriz;
 
-    public static int larguraFrame = 860; 
+    public static int larguraFrame = 890; 
     public static int alturaFrame = 630;
     public static int matrizPosicaoX = 60;
     public static int matrizPosicaoY = 30;
