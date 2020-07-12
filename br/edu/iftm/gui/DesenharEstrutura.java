@@ -69,9 +69,9 @@ public class DesenharEstrutura extends JLabel {
         estrutura2D.setColor(Color.BLACK);
         estrutura2D.drawString("A cauda PERDE um bloco", 605,255);
         estrutura2D.setColor(Color.RED);
-        estrutura2D.drawString("Bloco cabeca encostou na cauda: ", 605,275);
+        estrutura2D.drawString("Bloco cabeca encostou na cauda: ", 605,285);
         estrutura2D.setColor(Color.BLACK);
-        estrutura2D.drawString("A cauda PERDE TODOS os blocos", 605,295);
+        estrutura2D.drawString("A cauda PERDE TODOS os blocos", 605,305);
         
         repaint();
 
