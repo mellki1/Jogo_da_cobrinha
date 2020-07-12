@@ -8,6 +8,7 @@ public class DesenharEstrutura extends JLabel {
 
     Point p;
     Color cores[] = {new Color(204,51,0), new Color(0,204,51), new Color(204,0,51), new Color(104,26,0), new Color(51,0,204)};
+    Cobra Cobra = new Cobra();
 
     
     @Override
@@ -36,12 +37,11 @@ public class DesenharEstrutura extends JLabel {
 
         
         //Desenhar Bloco de Alimento
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < Cobra.alimentos.tamanho(); i++) {
             estrutura2D.setColor(cores[i]);
-            p = Cobra.posicaoCoordenada(Cobra.alimentos[i].getX(), Cobra.alimentos[i].getY());
+            p = Cobra.posicaoCoordenada(Cobra.alimentos.pegar(i).getX(), Cobra.alimentos.pegar(i).getY());
             estrutura2D.fillRect(p.x,p.y, 32,32);
-            Cobra.alimentos[i].setAlimentoCor(cores[i]);
-        
+            Cobra.alimentos.pegar(i).setAlimentoCor(cores[i]);       	
         }
         
 
@@ -53,7 +53,7 @@ public class DesenharEstrutura extends JLabel {
         //Escrever Legendas
         estrutura2D.setFont(new Font("Verdana", Font.BOLD, 12));
         estrutura2D.drawString("Pontos: "+ Cobra.pontuacao, 605,45);
-        estrutura2D.drawString("Melhor Pontuação: "+ Cobra.melhorPontuacao, 605,65);
+        estrutura2D.drawString("Melhor PontuaÃ§Ã£o: "+ Cobra.melhorPontuacao, 605,65);
 
         repaint();
 
