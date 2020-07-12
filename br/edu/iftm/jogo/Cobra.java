@@ -3,6 +3,7 @@ package br.edu.iftm.jogo;
 import java.awt.*;
 import br.edu.iftm.estruturas.Fila;
 import br.edu.iftm.gui.Gui;
+import br.edu.iftm.estruturas.ListaLigada;
 
 public class Cobra {
 
