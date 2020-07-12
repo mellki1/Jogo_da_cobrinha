@@ -54,7 +54,24 @@ public class DesenharEstrutura extends JLabel {
         estrutura2D.setFont(new Font("Verdana", Font.BOLD, 12));
         estrutura2D.drawString("Pontos: "+ Cobra.pontuacao, 605,45);
         estrutura2D.drawString("Melhor Pontuação: "+ Cobra.melhorPontuacao, 605,65);
-
+        
+        estrutura2D.drawString("Instruções: ", 605,105);
+        estrutura2D.setColor(Color.RED);
+        estrutura2D.drawString("Bloco de cor IGUAL da cabeça: ", 605,135);
+        estrutura2D.setColor(Color.BLACK);
+        estrutura2D.drawString("A cauda PERDERÁ um bloco", 605,155);
+        estrutura2D.setColor(Color.RED);
+        estrutura2D.drawString("Bloco de cor DIFERENTE da cabeça: ", 605,185);
+        estrutura2D.setColor(Color.BLACK);
+        estrutura2D.drawString("A cauda GANHARÁ um bloco", 605,205);
+        estrutura2D.setColor(Color.RED);
+        estrutura2D.drawString("Saiu pelas bordas: ", 605,235);
+        estrutura2D.setColor(Color.BLACK);
+        estrutura2D.drawString("A cauda PERDERÁ um bloco", 605,255);
+        estrutura2D.setColor(Color.RED);
+        estrutura2D.drawString("Bloco cabeça encostou na cauda: ", 605,275);
+        estrutura2D.setColor(Color.BLACK);
+        estrutura2D.drawString("A cauda PERDERÁ TODOS os blocos", 605,295);
         repaint();
 
     }
