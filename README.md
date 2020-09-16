@@ -17,11 +17,11 @@ Ao comer um quadradinho colorido de cor diferente da cor da Cabeça da Cobra, o 
 Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradinho colorido que representa a Cabeça da Cobra é retirado (Figura 3.3b).
 
 
-![alt text](https://drive.google.com/file/d/1iKwOqUqP5Je6237AY8IHhHCjerbShmm0/view?usp=sharing)
+![alt text](https://uploaddeimagens.com.br/imagens/qGJ_qe4)
 Fonte da imagem> (FERRARI, ROBERTO; RIBEIRO, MARCELA X.; DIAS, RAFAEL L.; FALVO, MAURÍCIO) - Estrutura de dados com Jogos GEN LTC; 1ª Edição (16 junho 2014)
 
 
 As estruturas e classes criadas podem ser visualizadas no diagrama abaixo.
 
-![alt text](https://drive.google.com/file/d/1aHRl5muqY9xE3lNQ-apKhsfUzX2r5VkU/view?usp=sharing)
+![alt text](https://uploaddeimagens.com.br/imagens/Z4R2z2c)
 
