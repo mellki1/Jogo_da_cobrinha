@@ -12,8 +12,8 @@ O aplicativo desenvolvido foi uma adaptação do clássico Jogo da cobrinha util
 Deste modo, o jogo insere elementos sempre no Final da Cobra e retira somente o Primeiro elemento da Cobra.
 
 No jogo a Cobra é formada por pequenos quadradinhos coloridos. No decorrer do jogo, a Cobra vai “comendo” quadradinhos coloridos que estão na tela.
-Ao comer um quadradinho colorido de cor diferente da cor da Cabeça da Cobra, o jogador marca pontos, e o quadradinho comido é inserido no final da Cobra (Figura 1).
-Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradinho colorido que representa a Cabeça da Cobra é retirado (Figura 1).
+Ao comer um quadradinho colorido de cor diferente da cor da Cabeça da Cobra, o jogador marca pontos, e o quadradinho comido é inserido no final da Cobra (Figura 1a).
+Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradinho colorido que representa a Cabeça da Cobra é retirado (Figura 1b).
 
 
 ![alt text](https://github.com/mellki1/jogo_da_cobrinha/blob/master/figura3.PNG?raw=true)
