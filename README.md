@@ -13,16 +13,15 @@ Deste modo, o jogo insere elementos sempre no Final da Cobra e retira somente o 
 
 No jogo a Cobra é formada por pequenos quadradinhos coloridos. No decorrer do jogo, a Cobra vai “comendo” quadradinhos coloridos que estão na tela.
 Ao comer um quadradinho colorido de cor diferente da cor da Cabeça da Cobra, o jogador marca pontos, e o quadradinho comido é inserido no final da Cobra (Figura ).
-Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradinho colorido que representa a Cabeça da Cobra é retirado (Figura 3.3b).
+Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradinho colorido que representa a Cabeça da Cobra é retirado (Figura 1).
 
 
 ![alt text](https://github.com/mellki1/jogo_da_cobrinha/blob/master/figura3.PNG?raw=true)
-FIGURA 1
-Fonte da imagem> (FERRARI, ROBERTO; RIBEIRO, MARCELA X.; DIAS, RAFAEL L.; FALVO, MAURÍCIO) - Estrutura de dados com Jogos GEN LTC; 1ª Edição (16 junho 2014)
+
+FIGURA 1 - Fonte da imagem> (FERRARI, ROBERTO; RIBEIRO, MARCELA X.; DIAS, RAFAEL L.; FALVO, MAURÍCIO) - Estrutura de dados com Jogos GEN LTC; 1ª Edição (16 junho 2014)
 
 
 As estruturas e classes criadas podem ser visualizadas no diagrama abaixo. (Clique para Ampliar)
 
 ![alt text](https://github.com/mellki1/jogo_da_cobrinha/blob/master/Diagrama.jpg?raw=true)
-FIGURA 2
-Fonte da imagem> Própria autoria
+FIGURA 2 - Fonte da imagem> Própria autoria
