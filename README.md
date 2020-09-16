@@ -4,8 +4,7 @@ Este repositório contém um aplicativo desenvolvido como forma de trabalho apre
 
 Alunos: Luiz Henrique Nunes, Melquisedeque Marcolino da Silva e Thaís Aparecida Vilarinho de Jesus.
 
-O aplicativo desenvolvido foi uma adaptação do clássico Jogo da cobrinha utilizando a linguagem Java. 
-A implentação deste jogo teve como proposta representar a estrutura de Dados chamada Fila, onde a mesma foi criada e utilizada para armazenar um conjuento de elementos seguindo os seguintes parâmetros:
+O aplicativo desenvolvido foi uma adaptação do clássico Jogo da cobrinha utilizando a linguagem Java e sua implentação teve como proposta representar a estrutura de Dados chamada Fila, onde a mesma foi criada e utilizada para armazenar um conjuento de elementos seguindo os seguintes parâmetros:
 
 * Novos elementos entram no conjunto sempre no final da Fila, que formaram o corpo da cobra;
 * O único elemento que pode ser retirado da Fila em determinado momento é o primeiro elemento da fila, que é representado pelo elemento da cabeça.
