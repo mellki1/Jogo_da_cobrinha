@@ -23,5 +23,5 @@ Fonte da imagem> (FERRARI, ROBERTO; RIBEIRO, MARCELA X.; DIAS, RAFAEL L.; FALVO,
 
 As estruturas e classes criadas podem ser visualizadas no diagrama abaixo.
 
-![alt text](https://uploaddeimagens.com.br/imagens/Z4R2z2c)
+![alt text](https://github.com/mellki1/jogo_da_cobrinha/blob/master/Diagrama.jpg?raw=true)
 
