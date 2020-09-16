@@ -18,6 +18,7 @@ Se a Cobra come um quadradinho colorido da mesma cor de sua Cabeça, o quadradin
 
 
 ![alt text](https://github.com/mellki1/jogo_da_cobrinha/blob/master/figura3.PNG?raw=true)
+
 Fonte da imagem> (FERRARI, ROBERTO; RIBEIRO, MARCELA X.; DIAS, RAFAEL L.; FALVO, MAURÍCIO) - Estrutura de dados com Jogos GEN LTC; 1ª Edição (16 junho 2014)
 
 
